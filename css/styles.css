@@ -33,6 +33,7 @@ body {
 main {
   display: flex;
   flex-direction: column;
+  padding: 66px 0 0 165px;
 }
 h1 {
   font-size: 64px;
@@ -51,12 +52,29 @@ p {
   max-width: 425px;
   margin-bottom: 40px;
 }
+form {
+  display: flex;
+}
 .input-email {
-  padding: 18.5px 33px;
+  padding: 17.5px 130px 17.5px 33px;
   border: 1px solid black;
   border-radius: 28px;
-  width: 100%;
+  width: 445px;
+  font-size: 16.5px;
+  letter-spacing: -0.008em;
 }
+.input-button {
+  /* display: none; */
+  font-size: 36px;
+  padding: 6px 38.49px;
+  border: 1px solid;
+  background-color: var(--Soft-red);
+  border-radius: 28px;
+  position: relative;
+  right: 100px;
+  cursor: pointer;
+}
+
 .hero {
 
 }
