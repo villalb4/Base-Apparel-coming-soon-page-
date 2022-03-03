@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
 
 :root {
-    
+
 /* Primary */
 
 --Desaturated-Red: hsl(0, 36%, 70%);
@@ -19,35 +19,43 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    justify-content: space-between;
-    background-image: url(../images/bg-pattern-desktop.svg);
-    font-Family: 'Josefin Sans';
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../images/bg-pattern-desktop.svg);
+  font-Family: 'Josefin Sans';
 }
 main {
-    padding: 66px 0 0 165px;
+  display: flex;
+  flex-direction: column;
 }
 h1 {
-    font-size: 64px;
-    font-weight: 300;
-    line-height: 64px;
-    letter-spacing: 0.27em;
-    max-width: 369px;
-    margin: 136.5px 0 22px 0;
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 67.84px;
+  letter-spacing: 0.27em;
+  max-width: 369px;
+  margin: 136.5px 0 22px 0;
+  text-transform: uppercase;
 }
 p {
-    font-size: 16.5px;
-    font-weight: 500;
-    line-height: 28px;
-    letter-spacing: -0.02em;
-    max-width: 425px;
-    margin-bottom: 40px;
+  font-size: 16.5px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  max-width: 425px;
+  margin-bottom: 40px;
+}
+.input-email {
+  padding: 18.5px 33px;
+  border: 1px solid black;
+  border-radius: 28px;
+  width: 100%;
 }
 .hero {
 
