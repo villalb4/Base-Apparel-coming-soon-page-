@@ -29,6 +29,7 @@ body {
   justify-content: space-between;
   background-image: url(../images/bg-pattern-desktop.svg);
   font-Family: 'Josefin Sans';
+  height: 90vh;
 }
 main {
   display: flex;
@@ -69,17 +70,18 @@ form {
   letter-spacing: -0.008em;
   color: var(--Desaturated-Red);
 }
-a {
+button {
   font-size: 36px;
   padding: 6px 38.49px;
   border: 1px solid ;
-  background-color: red;
+  background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
   border-radius: 28px;
+  border: none;
   position: relative;
-  right: 100px;
+  right: 90px;
   cursor: pointer;
 }
-a > img {
+button > img {
   background-color: blue;
 }
 
