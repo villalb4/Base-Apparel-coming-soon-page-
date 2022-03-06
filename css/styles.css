@@ -69,20 +69,23 @@ form {
   letter-spacing: -0.008em;
   color: var(--Desaturated-Red);
 }
-a {
+
+button {
   font-size: 36px;
-  padding: 6px 38.49px;
+  padding: 7px 44px;
   border: 1px solid ;
-  background-color: red;
+  background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
   border-radius: 28px;
+  border: none;
   position: relative;
-  right: 100px;
+  right: 88.5px;
   cursor: pointer;
+  box-shadow: 0 15px 20px -10px var(--Desaturated-Red);
 }
-a > img {
-  background-color: blue;
+button:hover {
+  box-shadow: 0 15px 20px -3px var(--Desaturated-Red);
 }
 
 .hero {
-
+  height: 100%;
 }
