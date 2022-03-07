@@ -29,6 +29,7 @@ body {
   justify-content: space-between;
   background-image: url(../images/bg-pattern-desktop.svg);
   font-Family: 'Josefin Sans';
+  height: 100vh;
 }
 main {
   display: flex;
@@ -36,7 +37,7 @@ main {
   padding: 66px 0 0 165px;
 }
 h1 {
-  font-size: 64px;
+  font-size: 4em;
   font-weight: 300;
   line-height: 67.84px;
   letter-spacing: 0.27em;
@@ -45,7 +46,7 @@ h1 {
   text-transform: uppercase;
 }
 p {
-  font-size: 16.5px;
+  font-size: 1.031em;
   font-weight: 500;
   line-height: 28px;
   letter-spacing: -0.02em;
@@ -61,17 +62,17 @@ form {
   border: 1px solid var(--Desaturated-Red);
   border-radius: 28px;
   width: 445px;
-  font-size: 16.5px;
+  font-size: 1.031em;
   letter-spacing: -0.008em;
 }
 ::placeholder {
-  font-size: 16.5px;
+  font-size: 1.031em;
   letter-spacing: -0.008em;
   color: var(--Desaturated-Red);
 }
 
 button {
-  font-size: 36px;
+  font-size: 2.25em;
   padding: 7px 44px;
   border: 1px solid ;
   background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
@@ -87,5 +88,5 @@ button:hover {
 }
 
 .hero {
-  height: 100%;
+
 }
